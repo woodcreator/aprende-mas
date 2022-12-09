@@ -1,0 +1,24 @@
+body {
+    margin: 0 50px;
+    background-image: linear-gradient(to left bottom, #dde1dd, #c2d9b7, #b3cd89, #adbf56, #afae0a);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Suma,
+.Resta,
+.Multiplicacion,
+.Division {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: #afaf0a3e;
+    padding: 40px;
+    margin: 10px 50px;
+    border-radius: 20px;
+}
